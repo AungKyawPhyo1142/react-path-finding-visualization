@@ -24,6 +24,7 @@ const Node: React.FC<NodeProps> = ({
 }) => {
   return (
     <div
+      id={`node-${row}-${col}`}
       className={clsx(
         "node",
         isStart && "node-start",
